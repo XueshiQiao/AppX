@@ -13,6 +13,10 @@
 		D86A86F620D0147400CAC7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86A86F520D0147400CAC7DA /* Assets.xcassets */; };
 		D86A86F920D0147400CAC7DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86A86F720D0147400CAC7DA /* Main.storyboard */; };
 		D86A86FC20D0147400CAC7DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A86FB20D0147400CAC7DA /* main.m */; };
+		D86A871220D017AA00CAC7DA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D86A870E20D017AA00CAC7DA /* LICENSE */; };
+		D86A871320D017AA00CAC7DA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D86A871020D017AA00CAC7DA /* README.md */; };
+		D86A871420D017AA00CAC7DA /* GCDTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A871120D017AA00CAC7DA /* GCDTask.m */; };
+		D86A871820D017D500CAC7DA /* yololib.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A871720D017D500CAC7DA /* yololib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,12 @@
 		D86A86FA20D0147400CAC7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D86A86FB20D0147400CAC7DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D86A86FD20D0147400CAC7DA /* AppX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppX.entitlements; sourceTree = "<group>"; };
+		D86A870E20D017AA00CAC7DA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D86A870F20D017AA00CAC7DA /* GCDTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTask.h; sourceTree = "<group>"; };
+		D86A871020D017AA00CAC7DA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D86A871120D017AA00CAC7DA /* GCDTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTask.m; sourceTree = "<group>"; };
+		D86A871620D017D500CAC7DA /* yololib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yololib.h; sourceTree = "<group>"; };
+		D86A871720D017D500CAC7DA /* yololib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yololib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		D86A86EE20D0147200CAC7DA /* AppX */ = {
 			isa = PBXGroup;
 			children = (
+				D86A870C20D017AA00CAC7DA /* Vendor */,
 				D86A86EF20D0147200CAC7DA /* AppDelegate.h */,
 				D86A86F020D0147200CAC7DA /* AppDelegate.m */,
 				D86A86F220D0147200CAC7DA /* ViewController.h */,
@@ -92,6 +103,35 @@
 				D86A86FD20D0147400CAC7DA /* AppX.entitlements */,
 			);
 			path = AppX;
+			sourceTree = "<group>";
+		};
+		D86A870C20D017AA00CAC7DA /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				D86A871520D017B000CAC7DA /* yololib */,
+				D86A870D20D017AA00CAC7DA /* GCDTask */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		D86A870D20D017AA00CAC7DA /* GCDTask */ = {
+			isa = PBXGroup;
+			children = (
+				D86A870E20D017AA00CAC7DA /* LICENSE */,
+				D86A870F20D017AA00CAC7DA /* GCDTask.h */,
+				D86A871020D017AA00CAC7DA /* README.md */,
+				D86A871120D017AA00CAC7DA /* GCDTask.m */,
+			);
+			path = GCDTask;
+			sourceTree = "<group>";
+		};
+		D86A871520D017B000CAC7DA /* yololib */ = {
+			isa = PBXGroup;
+			children = (
+				D86A871620D017D500CAC7DA /* yololib.h */,
+				D86A871720D017D500CAC7DA /* yololib.m */,
+			);
+			path = yololib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86A871220D017AA00CAC7DA /* LICENSE in Resources */,
 				D86A86F620D0147400CAC7DA /* Assets.xcassets in Resources */,
+				D86A871320D017AA00CAC7DA /* README.md in Resources */,
 				D86A86F920D0147400CAC7DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86A86F420D0147200CAC7DA /* ViewController.m in Sources */,
+				D86A871820D017D500CAC7DA /* yololib.m in Sources */,
+				D86A871420D017AA00CAC7DA /* GCDTask.m in Sources */,
 				D86A86FC20D0147400CAC7DA /* main.m in Sources */,
 				D86A86F120D0147200CAC7DA /* AppDelegate.m in Sources */,
 			);
