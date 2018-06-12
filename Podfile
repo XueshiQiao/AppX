@@ -7,4 +7,6 @@ target 'AppX' do
   # use_frameworks!
 
   # Pods for AppX
+#  pod 'STPrivilegedTask', '~> 1.0'
+    pod 'SSZipArchive'
 end

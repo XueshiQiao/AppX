@@ -17,7 +17,26 @@
 		D86A871320D017AA00CAC7DA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D86A871020D017AA00CAC7DA /* README.md */; };
 		D86A871420D017AA00CAC7DA /* GCDTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A871120D017AA00CAC7DA /* GCDTask.m */; };
 		D86A871820D017D500CAC7DA /* yololib.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A871720D017D500CAC7DA /* yololib.m */; };
+		D86A871F20D01BAB00CAC7DA /* XSProcessChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A871E20D01BAB00CAC7DA /* XSProcessChain.m */; };
+		D86A872220D01BE400CAC7DA /* XSProcessContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A872120D01BE400CAC7DA /* XSProcessContext.m */; };
+		D86A872620D01CFF00CAC7DA /* XSProcessBaseNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A872520D01CFF00CAC7DA /* XSProcessBaseNode.m */; };
+		D86A872E20D01D9B00CAC7DA /* AppXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A872D20D01D9B00CAC7DA /* AppXTests.m */; };
+		D86A873720D0264900CAC7DA /* XSProcessInputNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A873620D0264900CAC7DA /* XSProcessInputNode.m */; };
+		D86A873A20D02BCF00CAC7DA /* XSProcessExtractInfomationNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A873920D02BCF00CAC7DA /* XSProcessExtractInfomationNode.m */; };
+		D86A873D20D0313500CAC7DA /* XSProcessRemoveWatchKitNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A873C20D0313500CAC7DA /* XSProcessRemoveWatchKitNode.m */; };
+		D86A874020D0339100CAC7DA /* XSProcessSignNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A873F20D0339100CAC7DA /* XSProcessSignNode.m */; };
+		D86A874320D033BF00CAC7DA /* XSProcessZipToIPANode.m in Sources */ = {isa = PBXBuildFile; fileRef = D86A874220D033BF00CAC7DA /* XSProcessZipToIPANode.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D86A873020D01D9B00CAC7DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D86A86E420D0147200CAC7DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D86A86EB20D0147200CAC7DA;
+			remoteInfo = AppX;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		084DC4B07D366C7D2AB0E211 /* Pods-AppX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppX/Pods-AppX.debug.xcconfig"; sourceTree = "<group>"; };
@@ -39,6 +58,26 @@
 		D86A871120D017AA00CAC7DA /* GCDTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTask.m; sourceTree = "<group>"; };
 		D86A871620D017D500CAC7DA /* yololib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yololib.h; sourceTree = "<group>"; };
 		D86A871720D017D500CAC7DA /* yololib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yololib.m; sourceTree = "<group>"; };
+		D86A871D20D01BAB00CAC7DA /* XSProcessChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSProcessChain.h; sourceTree = "<group>"; };
+		D86A871E20D01BAB00CAC7DA /* XSProcessChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSProcessChain.m; sourceTree = "<group>"; };
+		D86A872020D01BE400CAC7DA /* XSProcessContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSProcessContext.h; sourceTree = "<group>"; };
+		D86A872120D01BE400CAC7DA /* XSProcessContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSProcessContext.m; sourceTree = "<group>"; };
+		D86A872320D01C9A00CAC7DA /* XSProcessNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XSProcessNode.h; path = /Users/qiaoxueshi/Code/Repo/AppX/AppX/Process/XSProcessNode.h; sourceTree = "<absolute>"; };
+		D86A872420D01CFF00CAC7DA /* XSProcessBaseNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSProcessBaseNode.h; sourceTree = "<group>"; };
+		D86A872520D01CFF00CAC7DA /* XSProcessBaseNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSProcessBaseNode.m; sourceTree = "<group>"; };
+		D86A872B20D01D9B00CAC7DA /* AppXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86A872D20D01D9B00CAC7DA /* AppXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppXTests.m; sourceTree = "<group>"; };
+		D86A872F20D01D9B00CAC7DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86A873520D0264900CAC7DA /* XSProcessInputNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSProcessInputNode.h; sourceTree = "<group>"; };
+		D86A873620D0264900CAC7DA /* XSProcessInputNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSProcessInputNode.m; sourceTree = "<group>"; };
+		D86A873820D02BCF00CAC7DA /* XSProcessExtractInfomationNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSProcessExtractInfomationNode.h; sourceTree = "<group>"; };
+		D86A873920D02BCF00CAC7DA /* XSProcessExtractInfomationNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSProcessExtractInfomationNode.m; sourceTree = "<group>"; };
+		D86A873B20D0313500CAC7DA /* XSProcessRemoveWatchKitNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSProcessRemoveWatchKitNode.h; sourceTree = "<group>"; };
+		D86A873C20D0313500CAC7DA /* XSProcessRemoveWatchKitNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSProcessRemoveWatchKitNode.m; sourceTree = "<group>"; };
+		D86A873E20D0339100CAC7DA /* XSProcessSignNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSProcessSignNode.h; sourceTree = "<group>"; };
+		D86A873F20D0339100CAC7DA /* XSProcessSignNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSProcessSignNode.m; sourceTree = "<group>"; };
+		D86A874120D033BF00CAC7DA /* XSProcessZipToIPANode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSProcessZipToIPANode.h; sourceTree = "<group>"; };
+		D86A874220D033BF00CAC7DA /* XSProcessZipToIPANode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSProcessZipToIPANode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +86,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				57EE17FFEA272B764B8F3A11 /* libPods-AppX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86A872820D01D9B00CAC7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				D86A86EE20D0147200CAC7DA /* AppX */,
+				D86A872C20D01D9B00CAC7DA /* AppXTests */,
 				D86A86ED20D0147200CAC7DA /* Products */,
 				D629A92B2FFF4B49B0ABFC7B /* Pods */,
 				32937DE20DDF1442E27C641B /* Frameworks */,
@@ -84,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				D86A86EC20D0147200CAC7DA /* AppX.app */,
+				D86A872B20D01D9B00CAC7DA /* AppXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +139,7 @@
 		D86A86EE20D0147200CAC7DA /* AppX */ = {
 			isa = PBXGroup;
 			children = (
+				D86A871920D01B3600CAC7DA /* Process */,
 				D86A870C20D017AA00CAC7DA /* Vendor */,
 				D86A86EF20D0147200CAC7DA /* AppDelegate.h */,
 				D86A86F020D0147200CAC7DA /* AppDelegate.m */,
@@ -118,8 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				D86A870E20D017AA00CAC7DA /* LICENSE */,
-				D86A870F20D017AA00CAC7DA /* GCDTask.h */,
 				D86A871020D017AA00CAC7DA /* README.md */,
+				D86A870F20D017AA00CAC7DA /* GCDTask.h */,
 				D86A871120D017AA00CAC7DA /* GCDTask.m */,
 			);
 			path = GCDTask;
@@ -132,6 +181,39 @@
 				D86A871720D017D500CAC7DA /* yololib.m */,
 			);
 			path = yololib;
+			sourceTree = "<group>";
+		};
+		D86A871920D01B3600CAC7DA /* Process */ = {
+			isa = PBXGroup;
+			children = (
+				D86A871D20D01BAB00CAC7DA /* XSProcessChain.h */,
+				D86A871E20D01BAB00CAC7DA /* XSProcessChain.m */,
+				D86A872020D01BE400CAC7DA /* XSProcessContext.h */,
+				D86A872120D01BE400CAC7DA /* XSProcessContext.m */,
+				D86A872320D01C9A00CAC7DA /* XSProcessNode.h */,
+				D86A872420D01CFF00CAC7DA /* XSProcessBaseNode.h */,
+				D86A872520D01CFF00CAC7DA /* XSProcessBaseNode.m */,
+				D86A873520D0264900CAC7DA /* XSProcessInputNode.h */,
+				D86A873620D0264900CAC7DA /* XSProcessInputNode.m */,
+				D86A873820D02BCF00CAC7DA /* XSProcessExtractInfomationNode.h */,
+				D86A873920D02BCF00CAC7DA /* XSProcessExtractInfomationNode.m */,
+				D86A873B20D0313500CAC7DA /* XSProcessRemoveWatchKitNode.h */,
+				D86A873C20D0313500CAC7DA /* XSProcessRemoveWatchKitNode.m */,
+				D86A873E20D0339100CAC7DA /* XSProcessSignNode.h */,
+				D86A873F20D0339100CAC7DA /* XSProcessSignNode.m */,
+				D86A874120D033BF00CAC7DA /* XSProcessZipToIPANode.h */,
+				D86A874220D033BF00CAC7DA /* XSProcessZipToIPANode.m */,
+			);
+			path = Process;
+			sourceTree = "<group>";
+		};
+		D86A872C20D01D9B00CAC7DA /* AppXTests */ = {
+			isa = PBXGroup;
+			children = (
+				D86A872D20D01D9B00CAC7DA /* AppXTests.m */,
+				D86A872F20D01D9B00CAC7DA /* Info.plist */,
+			);
+			path = AppXTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +237,24 @@
 			productReference = D86A86EC20D0147200CAC7DA /* AppX.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D86A872A20D01D9B00CAC7DA /* AppXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86A873220D01D9B00CAC7DA /* Build configuration list for PBXNativeTarget "AppXTests" */;
+			buildPhases = (
+				D86A872720D01D9B00CAC7DA /* Sources */,
+				D86A872820D01D9B00CAC7DA /* Frameworks */,
+				D86A872920D01D9B00CAC7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D86A873120D01D9B00CAC7DA /* PBXTargetDependency */,
+			);
+			name = AppXTests;
+			productName = AppXTests;
+			productReference = D86A872B20D01D9B00CAC7DA /* AppXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,6 +266,10 @@
 				TargetAttributes = {
 					D86A86EB20D0147200CAC7DA = {
 						CreatedOnToolsVersion = 9.4;
+					};
+					D86A872A20D01D9B00CAC7DA = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D86A86EB20D0147200CAC7DA;
 					};
 				};
 			};
@@ -183,6 +287,7 @@
 			projectRoot = "";
 			targets = (
 				D86A86EB20D0147200CAC7DA /* AppX */,
+				D86A872A20D01D9B00CAC7DA /* AppXTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +301,13 @@
 				D86A86F620D0147400CAC7DA /* Assets.xcassets in Resources */,
 				D86A871320D017AA00CAC7DA /* README.md in Resources */,
 				D86A86F920D0147400CAC7DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86A872920D01D9B00CAC7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,15 +339,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86A873A20D02BCF00CAC7DA /* XSProcessExtractInfomationNode.m in Sources */,
+				D86A874320D033BF00CAC7DA /* XSProcessZipToIPANode.m in Sources */,
 				D86A86F420D0147200CAC7DA /* ViewController.m in Sources */,
+				D86A872620D01CFF00CAC7DA /* XSProcessBaseNode.m in Sources */,
+				D86A874020D0339100CAC7DA /* XSProcessSignNode.m in Sources */,
+				D86A873D20D0313500CAC7DA /* XSProcessRemoveWatchKitNode.m in Sources */,
+				D86A873720D0264900CAC7DA /* XSProcessInputNode.m in Sources */,
 				D86A871820D017D500CAC7DA /* yololib.m in Sources */,
 				D86A871420D017AA00CAC7DA /* GCDTask.m in Sources */,
+				D86A872220D01BE400CAC7DA /* XSProcessContext.m in Sources */,
+				D86A871F20D01BAB00CAC7DA /* XSProcessChain.m in Sources */,
 				D86A86FC20D0147400CAC7DA /* main.m in Sources */,
 				D86A86F120D0147200CAC7DA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D86A872720D01D9B00CAC7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86A872E20D01D9B00CAC7DA /* AppXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D86A873120D01D9B00CAC7DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D86A86EB20D0147200CAC7DA /* AppX */;
+			targetProxy = D86A873020D01D9B00CAC7DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D86A86F720D0147400CAC7DA /* Main.storyboard */ = {
@@ -396,6 +532,44 @@
 			};
 			name = Release;
 		};
+		D86A873320D01D9B00CAC7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y4E69MK58Q;
+				INFOPLIST_FILE = AppXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyio.AppXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppX.app/Contents/MacOS/AppX";
+			};
+			name = Debug;
+		};
+		D86A873420D01D9B00CAC7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Y4E69MK58Q;
+				INFOPLIST_FILE = AppXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeyio.AppXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppX.app/Contents/MacOS/AppX";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +587,15 @@
 			buildConfigurations = (
 				D86A870120D0147400CAC7DA /* Debug */,
 				D86A870220D0147400CAC7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86A873220D01D9B00CAC7DA /* Build configuration list for PBXNativeTarget "AppXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86A873320D01D9B00CAC7DA /* Debug */,
+				D86A873420D01D9B00CAC7DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
